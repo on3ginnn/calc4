@@ -1,0 +1,44 @@
+body{
+    font-size: 55px;
+    line-height: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.calc{
+    background: #ffc3c3;
+
+    padding: 5px;
+    width: 315px;
+    height: 485px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+._grid {
+    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 85px repeat(5, 75px);
+}
+
+._tablet {
+    grid-column: span 4;
+    position: relative;
+}
+.tablet {
+    background: white;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: right;
+    font-size: 64px;
+    line-height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
